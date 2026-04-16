@@ -13,10 +13,10 @@ app.use(express.json({ limit: '250mb' }));
 app.use(express.urlencoded({ limit: '250mb', extended: true }));
 
 const pool = new Pool({
-  user: "michael",
-  host: "localhost",
-  database: "shiloh_trades",
-  password: "michael12",
+  user: "postgres.sbpqjwhicujkicnqxjyd",
+  host: "aws-1-ap-northeast-1.pooler.supabase.com",
+  database: "postgres",
+  password: "Ta1AXVPJjtv62xTR",
   port: 5432,
 });
 
